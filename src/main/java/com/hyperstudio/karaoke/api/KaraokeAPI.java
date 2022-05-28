@@ -14,7 +14,6 @@ import java.util.logging.Logger;
  */
 public class KaraokeAPI extends API {
 	
-	
 	public KaraokeAPI() throws SecurityException, IOException {
 		Log.useAPI = true;
 		

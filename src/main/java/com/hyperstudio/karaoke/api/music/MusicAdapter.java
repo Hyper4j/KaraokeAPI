@@ -9,7 +9,6 @@ import java.awt.Image;
  */
 public interface MusicAdapter {
 	
-	
 	public Image getImage();
 	
 	

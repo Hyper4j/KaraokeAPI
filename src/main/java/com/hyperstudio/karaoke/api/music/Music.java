@@ -152,7 +152,6 @@ public class Music implements MusicAdapter {
 			}
 		}
 		
-		
 		String result = "{\"노래방\":\"tj\",\"번호\":\""+getNumber()+"\""
 				+ ",\"제목\":\""+getTitle()+"\""
 				+ ",\"가수\":\""+singer+"\""

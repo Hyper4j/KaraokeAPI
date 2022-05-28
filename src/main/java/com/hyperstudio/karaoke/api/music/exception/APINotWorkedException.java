@@ -7,6 +7,7 @@ package com.hyperstudio.karaoke.api.music.exception;
  */
 public class APINotWorkedException extends Exception {
 	
+	
 	public APINotWorkedException() {
 		super("API 를 제대로 사용해주십시오.");
 	}

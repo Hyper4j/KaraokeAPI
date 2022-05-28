@@ -7,6 +7,7 @@ package com.hyperstudio.karaoke.api.music;
  */
 public enum MusicType {
 	
+	
 	// 가수, 제목, 번호
 	SINGER, TITLE, NUMBER;
 	

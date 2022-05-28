@@ -9,7 +9,6 @@ import com.hyperstudio.karaoke.api.music.MusicSearch;
  */
 public class API implements ApplicationProgrammingInterface {
 	
-	
 	/**
 	 * MusicSearch 라는 클래스를 불러온다.
 	 */

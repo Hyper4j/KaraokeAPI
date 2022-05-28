@@ -7,6 +7,7 @@ package com.hyperstudio.karaoke.api.music.exception;
  */
 public class ErrorOccurredException extends Exception {
 	
+	
 	public ErrorOccurredException() {
 		super("알 수 없는 오류가 발생했습니다.");
 	}

@@ -12,6 +12,7 @@ import net.minidev.json.parser.ParseException;
  */
 public class JsonAPI {
 	
+	
 	/**
 	 * Json 형태의 String 을, JSONArray 로 변환.
 	 * @param arguments : Json String

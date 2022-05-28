@@ -20,6 +20,7 @@ import net.minidev.json.JSONObject;
  */
 public class MusicBuilder {
 	
+	
 	/**
 	 * MusicType 과 injectObject 로, 그에 맞는 Music 을 불러온다.
 	 * @param musicType : TITLE = 제목, SINGER = 가수, NUMBER = 번호

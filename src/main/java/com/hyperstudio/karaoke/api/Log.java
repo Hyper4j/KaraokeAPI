@@ -43,4 +43,5 @@ public class Log extends Formatter {
 	public static boolean getUse() {
 		return useAPI;
 	}
+	
 }

@@ -15,6 +15,7 @@ public class Module {
 	private String license = "MIT License";
 	private String copyright = "오픈소스로 배포된 API, 이를 이용하여 프로그램 개발에 동의하지만, 그 프로그램에 API 사용 출처를 명시해야한다.";
 	
+	
 	public String[] getInfo() {
 		String[] message = new String[9];
 		message[0] = "==============================";

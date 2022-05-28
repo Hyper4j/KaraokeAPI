@@ -20,6 +20,7 @@ import com.hyperstudio.karaoke.api.music.PopularType;
  */
 public class RestfulAPI implements Restful {
 	
+	
 	// 기본 소스 URL
 	private static String url = "https://api.manana.kr/karaoke";
 	

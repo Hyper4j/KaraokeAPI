@@ -7,6 +7,7 @@ package com.hyperstudio.karaoke.api.music;
  */
 public enum PopularType {
 	
+	
 	// 한달, 1주일, 1달
 	DAILY, WEEKLY, MONTHLY;
 	
