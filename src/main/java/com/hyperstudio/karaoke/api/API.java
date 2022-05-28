@@ -15,6 +15,7 @@ public class API implements ApplicationProgrammingInterface {
 	 */
 	@Override
 	public MusicSearch getMusicSearch() {
+		
 		return new MusicSearch();
 	}
 	
