@@ -20,7 +20,7 @@ public class KaraokeAPI extends API {
 		Log.useAPI = true;
 		
 		// INFO 로그를 깔끔하게 만들어줌.
-        Log.LOG.addHandler(getHandler());
+		Log.LOG.addHandler(getHandler());
 		
 		Log.LOG.log(Level.INFO, "API 를 불러오는중입니다...");
 		
