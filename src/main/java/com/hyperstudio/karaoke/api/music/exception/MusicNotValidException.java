@@ -10,6 +10,7 @@ import com.hyperstudio.karaoke.api.music.MusicType;
  */
 public class MusicNotValidException {
 	
+	
 	// 예외처리문 시작.
 	public MusicNotValidException(MusicType musicExamples) throws MusicSingerNotValidException, MusicNameNotValidException, MusicNumberNotValidException {
 		switch(musicExamples) {

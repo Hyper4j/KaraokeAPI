@@ -13,7 +13,6 @@ import com.hyperstudio.karaoke.api.music.exception.MusicNotValidException.MusicS
  */
 public class MusicSearch {
 	
-	
 	// 음악 빌더 객체를 가져온다.
 	public MusicBuilder musicBuilder = new MusicBuilder();
 	

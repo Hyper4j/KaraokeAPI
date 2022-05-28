@@ -20,6 +20,7 @@ import com.hyperstudio.karaoke.api.music.PopularType;
  */
 public class RestfulAPI implements Restful {
 	
+	
 	// 기본 소스 URL
 	private static String url = "https://api.manana.kr/karaoke";
 	
@@ -34,24 +35,28 @@ public class RestfulAPI implements Restful {
 	public RestfulAPI(MusicType musicType, Object[] InjectObject) {
 		
 		switch(musicType) {
+			// 제목이라면?
 			case TITLE:
 				
 				String title = (String) ((String[]) InjectObject)[0];
 				injectUrl = url + "/song/" + title.replace(" ", "") + "/tj.json";
 				break;
-				
+			
+			// 가수라면?
 			case SINGER:
 				
 				String singer = (String) ((String[]) InjectObject)[0];
 				injectUrl = url + "/singer/" + singer.replace(" ", "") + "/tj.json";
 				break;
-				
+			
+			// 노래방 번호라면?
 			case NUMBER:
 				
 				int number = Integer.parseInt(((String[]) InjectObject)[0]);
 				injectUrl = url + "/no/" + number + "/tj.json";
 				break;
-				
+			
+			// 기본
 			default: break;
 		}
 		
