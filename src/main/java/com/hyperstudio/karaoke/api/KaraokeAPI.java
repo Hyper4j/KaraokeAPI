@@ -2,7 +2,6 @@ package com.hyperstudio.karaoke.api;
 
 import java.io.IOException;
 import java.util.logging.ConsoleHandler;
-import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -20,7 +19,7 @@ public class KaraokeAPI extends API {
 		Log.useAPI = true;
 		
 		// INFO 로그를 깔끔하게 만들어줌.
-        Log.LOG.addHandler(getHandler());
+		Log.LOG.addHandler(getHandler());
 		
 		Log.LOG.log(Level.INFO, "API 를 불러오는중입니다...");
 		
@@ -42,22 +41,19 @@ public class KaraokeAPI extends API {
 	 * @return
 	 */
 	private Handler getHandler() {
-        Logger rootLogger = Logger.getLogger("");
-        Handler[] handlers = rootLogger.getHandlers();
-        if (handlers[0] instanceof ConsoleHandler) {
-            rootLogger.removeHandler(handlers[0]);
-        }
-        
-        Log.LOG.setLevel(Level.INFO);
-        
-        Handler handler = new ConsoleHandler();
-        
-        Log formatter = new Log();
-        handler.setFormatter(formatter);
-        
-        
-        
-        return handler;
+		Logger rootLogger = Logger.getLogger("");
+		Handler[] handlers = rootLogger.getHandlers();
+		if (handlers[0] instanceof ConsoleHandler) {
+			rootLogger.removeHandler(handlers[0]);
+		}
+		
+		Log.LOG.setLevel(Level.INFO);
+		
+		Handler handler = new ConsoleHandler();
+		
+		Log formatter = new Log();
+		handler.setFormatter(formatter);
+		return handler;
 	}
 	
 }

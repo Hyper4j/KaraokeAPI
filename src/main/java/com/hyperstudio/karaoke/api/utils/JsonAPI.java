@@ -20,7 +20,7 @@ public class JsonAPI {
 	public static JSONArray parse(String arguments) {
 		
 		JSONParser parser = new JSONParser();
-	    JSONArray jsonArray = null;
+		JSONArray jsonArray = null;
 		try {
 			jsonArray = (JSONArray) parser.parse(arguments);
 			return jsonArray;
@@ -29,7 +29,7 @@ public class JsonAPI {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	    return null;
+		return null;
 	}
 	
 	/**
